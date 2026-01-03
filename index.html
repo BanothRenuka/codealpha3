@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pharmacovigilance & ADR Analysis - Paracetamol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Pharmacovigilance & Adverse Drug Reaction (ADR) Analysis</h1>
+    <h2>Drug: Paracetamol (Acetaminophen)</h2>
+</header>
+
+<nav>
+    <button onclick="scrollToSection('intro')">Introduction</button>
+    <button onclick="scrollToSection('moa')">Mechanism of Action</button>
+    <button onclick="scrollToSection('adrs')">Reported ADRs</button>
+    <button onclick="scrollToSection('risk')">Risk Reduction</button>
+    <button onclick="scrollToSection('conclusion')">Conclusion</button>
+</nav>
+
+<section id="intro">
+    <h3>1. Introduction</h3>
+    <p>
+        Pharmacovigilance is the science concerned with the detection, assessment,
+        understanding, and prevention of adverse effects or any other drug-related problems.
+        Paracetamol (Acetaminophen) is one of the most widely used analgesic and antipyretic drugs
+        worldwide. Despite its general safety at therapeutic doses, paracetamol is a leading
+        cause of drug-induced liver injury when overdosed.
+    </p>
+    <p>
+        This report analyzes the adverse drug reactions (ADRs) associated with paracetamol,
+        its mechanism of action, and measures to minimize associated risks, based on data
+        reported in WHO VigiBase and DrugBank.
+    </p>
+</section>
+
+<section id="moa">
+    <h3>2. Mechanism of Action</h3>
+    <p>
+        Paracetamol acts primarily in the central nervous system. It inhibits the cyclooxygenase
+        (COX) enzyme, particularly COX-2, reducing the synthesis of prostaglandins involved in pain
+        and fever.
+    </p>
+    <p>
+        Unlike NSAIDs, paracetamol has minimal peripheral anti-inflammatory effects.
+        It is believed to modulate serotonergic pathways and may also influence endocannabinoid
+        systems contributing to analgesia.
+    </p>
+    <p>
+        Paracetamol is metabolized in the liver. A small fraction is converted to a toxic metabolite,
+        N-acetyl-p-benzoquinone imine (NAPQI), which is detoxified by glutathione under normal conditions.
+        In overdose, glutathione is depleted, leading to hepatocellular damage.
+    </p>
+</section>
+
+<section id="adrs">
+    <h3>3. Reported Adverse Drug Reactions (ADRs)</h3>
+    <p><strong>Data Sources:</strong> WHO VigiBase, DrugBank</p>
+
+    <table>
+        <tr>
+            <th>System Organ Class</th>
+            <th>Adverse Drug Reactions</th>
+        </tr>
+        <tr>
+            <td>Gastrointestinal</td>
+            <td>Nausea, vomiting, abdominal pain</td>
+        </tr>
+        <tr>
+            <td>Hepatobiliary</td>
+            <td>Elevated liver enzymes, hepatitis, acute liver failure</td>
+        </tr>
+        <tr>
+            <td>Skin</td>
+            <td>Rash, urticaria, Stevens-Johnson syndrome (rare)</td>
+        </tr>
+        <tr>
+            <td>Immune System</td>
+            <td>Hypersensitivity reactions, anaphylaxis (rare)</td>
+        </tr>
+        <tr>
+            <td>Renal</td>
+            <td>Acute kidney injury (with chronic high-dose use)</td>
+        </tr>
+    </table>
+
+    <p>
+        The most serious ADR associated with paracetamol is dose-dependent hepatotoxicity.
+        WHO pharmacovigilance reports highlight overdose as a major cause of acute liver failure,
+        particularly in adults with chronic alcohol use or malnutrition.
+    </p>
+</section>
+
+<section id="risk">
+    <h3>4. Measures to Reduce Risks</h3>
+    <ul>
+        <li>Adherence to recommended therapeutic doses (maximum 4 g/day in adults).</li>
+        <li>Avoiding concurrent use of multiple paracetamol-containing products.</li>
+        <li>Caution in patients with liver disease, alcoholism, or malnutrition.</li>
+        <li>Public education on overdose risks and safe use.</li>
+        <li>Early administration of N-acetylcysteine (NAC) in cases of overdose.</li>
+        <li>Clear labeling and pharmacovigilance reporting of suspected ADRs.</li>
+    </ul>
+</section>
+
+<section id="conclusion">
+    <h3>5. Conclusion</h3>
+    <p>
+        Paracetamol remains an effective and widely used analgesic and antipyretic drug.
+        However, its potential for severe hepatotoxicity necessitates careful monitoring,
+        patient education, and active pharmacovigilance.
+    </p>
+    <p>
+        Continuous ADR reporting to databases such as WHO VigiBase plays a crucial role
+        in identifying safety signals and improving drug use practices worldwide.
+    </p>
+</section>
+
+<footer>
+    <p>Prepared for Pharmacovigilance Assignment | 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
